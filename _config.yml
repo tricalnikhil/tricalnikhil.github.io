@@ -6,7 +6,7 @@ github_username: tricalnikhil
 permalink: /blog/:year/:month/:day/:title
 
 # Build settings
-markdown: kramdow
+markdown: kramdown
 theme: minima
 plugins:
   - jekyll-sitemap
