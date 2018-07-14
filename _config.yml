@@ -1,5 +1,12 @@
 name: Nikhil Shah
-markdown: kramdown
+title: Nikhil Shah
+email: me@shahnikhil.com
+baseurl: ""
+github_username: tricalnikhil
 permalink: /blog/:year/:month/:day/:title
+
+# Build settings
+markdown: kramdow
+theme: minima
 plugins:
   - jekyll-sitemap
