@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Nikhil Shah, Tests RSS
+title: "Nikhil Shah, Tests RSS"
 date: 2018-07-14
 ---
 
