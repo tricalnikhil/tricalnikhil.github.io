@@ -6,4 +6,10 @@ permalink: /about/
 
 # About me
 
-I am a Software Developer. I currently live in Mountain View, California, USA.
+I enjoy running, biking, yoga, skiing, hiking, backpacking and everything outdoors. I am currently trying to become a better swimmer and a good cook.
+
+I love to code. I enjoy working on tools. I'm a a game developer.
+
+I'm passionate about environmental issues, LGBT issues.
+
+Thank you for visiting my website. Cheers 🍻
