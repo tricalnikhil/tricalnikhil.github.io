@@ -12,4 +12,6 @@ I love to code. I enjoy working on tools. I'm a professional game developer.
 
 I'm passionate about environmental issues, LGBT issues.
 
-Thank you for visiting my website. Cheers 🍻
+Thank you for visiting my website.
+
+Cheers 🍻
