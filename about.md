@@ -10,7 +10,7 @@ I enjoy running, biking, yoga, skiing, hiking, backpacking and everything outdoo
 
 I love to code 💻. I enjoy working on tools. I'm a professional game developer 🎮.
 
-I'm passionate about Environmental 🌿 issues, LGBT 🌈 issues.
+I'm really passionate about Environmental 🌿 issues, LGBT 🌈 issues.
 
 Thank you for visiting my website.
 
