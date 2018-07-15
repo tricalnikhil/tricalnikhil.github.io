@@ -1,0 +1,20 @@
+---
+layout: post
+title: Localization in Google Android
+date: '2010-05-19T01:39:00.000-07:00'
+author: khilbill
+tags:
+- espanol
+- google
+- iphone
+- android
+- localization
+- translate
+- spannish
+- language
+modified_time: '2011-01-14T02:34:31.294-08:00'
+blogger_id: tag:blogger.com,1999:blog-7139470000594197884.post-7805253436259081169
+blogger_orig_url: http://tricalnikhil.blogspot.com/2011/01/localization-in-google-android.html
+---
+
+Any localization will require the user to provide a sort of dictionary, XML or a resources bundle, which contains a mapping between the actual string text of the label and the converted text in the desired language. This is the direct way to do it. Localization does not intend to 'automatially' convert the string into its localized equaivalent. This is because language conversion is in itself a very intense process (algorithmically) and cannot be handled by a stand alone 'converter' application. And, even if such an API or plugin is present, I would suggest not using it, as its accuracy is not always 100%. Infact, web and desktop based language converters are still being developed to provide higher and higher accuracies.<br />So it ultimatly boils down to the individual application maintaning its own ditionary. In a way this is better, this gives developers more control over the application, and the behaviour is not unpredictable, which would be the case if the app relies on external 3rd party language converters. That being said, here is how its done.<br /><br />On <b>Android,</b><br /><br />Assuming you use the default Android application development environment and code structure (is there anything other than default? :D )<b> </b>-<br /><ol><li>Copy the <i>res/values/strings.xml</i> bundle to <i>res/values-es/strings.xml</i> (Espanol/ Spannish)</li><li>Replace all the <i><string name="English text here">Spannish text here</string></i> with the Spannish text as shown. Use Google translate (link below)<br /></li><li>Copy the contents of <i>res/drawable</i> bundle to <i>res/drawable-es-rES </i>(Espanol/ Spannish)</li><li>Replace the drawable resource files (your png files) to its any Spannish equivalents.</li><li><b>Note</b>: If the equivalent of a string or drawable is not found in the language directories, the default values are taken from the <i>res/values</i> and <i>res/drawable</i> folders.</li><li>All references using <i>android:text="@string\englishtext"</i>, etc. will display the equivalent Spannish text if the user chooses Spannish as the device language.</li><li>Similarly, all drawable items wil show the Spannish equivalents, if it exists, or display the default drawables.</li><li>Localization almost always gets precedence for a user. <br /></li><li>Use <br /><pre>String locale = context.getResources().getConfiguration().locale.getDisplayName();</pre><pre><span style="font-size: small;">to get the localization being used.</span></pre></li></ol>Use:-<br /><br /><ul><li>Google <a href="http://www.translate.google.com/translate_t#">translate</a></li><li>Wiki Language <a href="http://en.wikipedia.org/wiki/Language_code">Codes</a>&nbsp;</li><li>Android <a href="http://developer.android.com/guide/tutorials/localization/index.html">localization</a>&nbsp;</li></ul>
