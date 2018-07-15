@@ -5,4 +5,4 @@ permalink: /resume/
 ---
 # Resume
 
-Email me to get my resume.
+Email me to get my latest resume.
