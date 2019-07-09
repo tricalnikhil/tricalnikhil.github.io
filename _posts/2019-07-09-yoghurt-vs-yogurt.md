@@ -6,7 +6,7 @@ date: 2019-07-09
 
 ## Yoghurt vs. Yogurt
 
-While saving a granola recipe that a friend had sent me, I typed in 'Yoghurt' and saw the spell check ~swiggly~ squiggly line. 
+While saving a granola recipe that a friend had sent me, I typed in 'Yoghurt' and saw the spell check s̶w̶i̶g̶g̶l̶y̶ squiggly line. 
 
 Wait a minute.
 It's _Yoghurt_? Or _Yogurt_? Either are okay. A quick online search shows both spellings are used equally across the globe.
