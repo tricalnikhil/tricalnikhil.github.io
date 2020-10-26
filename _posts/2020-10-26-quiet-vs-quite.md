@@ -1,4 +1,3 @@
-
 ---
 layout: post
 title: "Quiet 🤫 vs. Quite"
